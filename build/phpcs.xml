@@ -1,0 +1,13 @@
+<!---------------------------------------------------
+  ---------		AUTO PHP CI		    -----------------
+  ---------EMAIL: YUCHAO86@GMAIL.COM-----------------
+  ---------		Date: 2013-12-27	-----------------
+  -------------------------------------------------->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ruleset name="name-of-your-coding-standard">
+ <description>Description of your coding standard</description>
+
+ <rule ref="Generic.PHP.DisallowShortOpenTag"/>
+ <!-- ... -->
+</ruleset>
