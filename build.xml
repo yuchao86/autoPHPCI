@@ -132,4 +132,28 @@
    <arg path="${basedir}/build/code-browser" />
   </exec>
  </target>
+ 
+ <!-- php dead code detector(https://github.com/sebastianbergmann/phpdcd)
+ 
+  <target name="phpdcd" description="PHP dead code detector">
+  <exec executable="phpdcd">
+   <arg value="--log" />
+   <arg path="${basedir}/build/logs" />
+   <arg value="--source" />
+   <arg path="${basedir}/src" />
+   <arg value="--output" />
+   <arg path="${basedir}/build/phpdcd" />
+  </exec>
+ </target>
+ 
+ 
+ Php copy paste detector(https://github.com/sebastianbergmann/phpcpd
+  <target name="phpcpd" description="Find duplicate code using PHPCPD">
+  <exec executable="phpcpd">
+   <arg value="--log-pmd" />
+   <arg value="${basedir}/build/logs/pmd-cpd.xml" />
+   <arg path="${basedir}/src" />
+  </exec>
+ </target>
+ -->
 </project>
